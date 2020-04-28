@@ -1,0 +1,13 @@
+{
+    "title": "Security Module",
+    "auth": {
+        "login": {
+            "title": "Login"
+        },
+        "userName": "User Name",
+        "password": "Password",
+        "useNameWasRequired": "User Name was required",
+        "userNameOrPasswordInValid": "User Name or Password invalid",
+        "passwordWasRequired": "Password was required"
+    }
+}

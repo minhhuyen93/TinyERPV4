@@ -1,0 +1,10 @@
+{
+  "DataBaseConnections": {
+    "InventoryModule": {
+      "ConnectionString": "Server=DESKTOP-AFFA8J9\\SQLEXPRESS;Database=ProductDbContext;User Id=sa;Password=123456"
+    },
+    "SecurityModule": {
+      "ConnectionString": "Server=DESKTOP-AFFA8J9\\SQLEXPRESS;Database=SecurityDbContext;User Id=sa;Password=123456"
+    }
+  }
+}

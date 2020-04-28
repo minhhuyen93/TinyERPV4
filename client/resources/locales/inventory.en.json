@@ -1,0 +1,25 @@
+{
+    "products": {
+        "title": "Products",
+        "name": "Name",
+        "quantity": "Quantity",
+        "price": "Price",
+        "description": "Description",
+        "addNew": "Add New",
+        "edit": "Edit",
+        "delete": "Delete"
+    },
+    "addOrEdit": {
+        "title": "Add or Edit Product",
+        "name": "Name",
+        "nameWasRequired": "Name was required",
+        "nameWasUnderMinLength": "Name was under minlength",
+        "nameWasExceedMaxLength": "Name was exceed maxlength",
+        "nameWasExisted": "Name was existed",
+        "quantity": "Quantity",
+        "quantityWasRequired": "Quantity was required",
+        "price": "Price",
+        "priceWasRequired": "Price was required",
+        "description": "Description"
+    }
+}
