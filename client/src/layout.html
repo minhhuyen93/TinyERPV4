@@ -1,0 +1,78 @@
+<div class="nav-md">
+	<div class="container body">
+		<div class="main_container">
+			<div class="col-md-3 left_col">
+				<div class="left_col scroll-view">
+					<div class="navbar nav_title" style="border: 0;">
+						<a href="#" class="site_title"><i class="fa fa-paw"></i> <span>Angular2</span></a>
+					</div>
+					<div class="clearfix"></div>
+					<br />
+					<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+						<div class="menu_section">
+							<h3>General</h3>
+							<ul class="nav side-menu">
+								<li><a routerLink='/inventory/products' title="Users"><i class="fa fa-user"></i> Inventory Module</a></li>
+							</ul>
+							<div style="height:500px">&nbsp;</div>
+						</div>
+					</div>
+					<!-- /sidebar menu -->
+				</div>
+			</div>
+
+			<!-- top navigation -->
+			<div class="top_nav">
+			</div>
+			<div class="right_col" role="main">
+					<router-outlet></router-outlet>
+				<br/>
+				<br/>
+			</div>
+			<footer>
+				<div class="clearfix"></div>
+			</footer>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="/resources/theme/gentallela/vendors/jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="/resources/theme/gentallela/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- FastClick -->
+	<script src="/resources/theme/gentallela/vendors/fastclick/lib/fastclick.js"></script>
+	<!-- NProgress -->
+	<script src="/resources/theme/gentallela/vendors/nprogress/nprogress.js"></script>
+	<!-- Chart.js -->
+	<script src="/resources/theme/gentallela/vendors/Chart.js/dist/Chart.min.js"></script>
+	<!-- gauge.js -->
+	<script src="/resources/theme/gentallela/vendors/bernii/gauge.js/dist/gauge.min.js"></script>
+	<!-- bootstrap-progressbar -->
+	<script src="/resources/theme/gentallela/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+	<!-- iCheck -->
+	<script src="/resources/theme/gentallela/vendors/iCheck/icheck.min.js"></script>
+	<!-- Skycons -->
+	<script src="/resources/theme/gentallela/vendors/skycons/skycons.js"></script>
+	<!-- Flot -->
+	<script src="/resources/theme/gentallela/vendors/Flot/jquery.flot.js"></script>
+	<script src="/resources/theme/gentallela/vendors/Flot/jquery.flot.pie.js"></script>
+	<script src="/resources/theme/gentallela/vendors/Flot/jquery.flot.time.js"></script>
+	<script src="/resources/theme/gentallela/vendors/Flot/jquery.flot.stack.js"></script>
+	<script src="/resources/theme/gentallela/vendors/Flot/jquery.flot.resize.js"></script>
+	<!-- Flot plugins -->
+	<script src="/resources/theme/gentallela/js/flot/jquery.flot.orderBars.js"></script>
+	<script src="/resources/theme/gentallela/js/flot/date.js"></script>
+	<script src="/resources/theme/gentallela/js/flot/jquery.flot.spline.js"></script>
+	<script src="/resources/theme/gentallela/js/flot/curvedLines.js"></script>
+	<!-- jVectorMap -->
+	<script src="/resources/theme/gentallela/js/maps/jquery-jvectormap-2.0.3.min.js"></script>
+	<!-- bootstrap-daterangepicker -->
+	<script src="/resources/theme/gentallela/js/moment/moment.min.js"></script>
+	<script src="/resources/theme/gentallela/js/datepicker/daterangepicker.js"></script>
+
+	<!-- Custom Theme Scripts -->
+	<script src="/resources/theme/gentallela/js/custom.js"></script>
+	<script>
+            System.import("src/main").catch(function(error){console.log(error);});
+    </script>
+</div>
